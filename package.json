@@ -1,0 +1,15 @@
+{
+  "name": "demo",
+  "private": true,
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm --filter @demo/* --parallel dev",
+    "build": "pnpm --filter @demo/* --parallel build",
+    "clean": "pnpm --filter @demo/* --parallel clean"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
